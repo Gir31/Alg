@@ -18,4 +18,56 @@ def dist(a, b):
 def dist_sq(a, b):
 	d = 1#???
 
+def brute_force(arr, i1, i2):
+	md = ???
+	for x: # i1 ~ 12
+		for ??: #x+1 ~ i2
+			if d < md:
+				md = d
+				s = 
+				e =
+
+	return s, e, d
+
+
+def dnc(arr, i1, i2):
+	switch size:
+		<= 1: return -1, -1, 0
+		== 2: return i1, i2, dist(i1, i2)
+		== 3: return brute_force(arr, i1, i2)
+	
+	# size >= 4
+	s1, e1, d1 = dnc(...)
+	s2, e2, d2 = dnc(...)
+
+	if d1 < d2:
+		??
+	else:
+		???
+
+	d 결정
+
+	x좌표: 중간점x좌표-d ~ 중간점 x좌표+d
+	index1: x좌표가 중간점x좌표-d 이상인 점들 중 가장 왼쪽 index
+	index2: x좌표가 중간점x좌표+d 이하인 점들 중 가장 오른쪽 index
+	strip = [t for t in y_sorted if t[2] >= index1 and t[2] <= index2]
+
+
+
+
 print(coords)
+coords.sort(key=lambda t:t[0])
+
+x_sorted = [(coords[i][0], coords[i][1], i) for i in range(len(coords))]
+
+y_sorted = sorted(x_sorted, key=lambda t:t[1])
+
+x_sorted = sorted(coords, ....)
+
+#s, e, d = brute_force(coord, 0, len(coords) - 1)
+s, e, d = dnc(coords, 0, len(coords) - 1)
+
+
+#print(f'{s=} {e=} {d=}')
+
+print(f'[{s}]{coords[s]} - [{e}]{coords[e]}, {d=}')
