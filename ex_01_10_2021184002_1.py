@@ -13,7 +13,11 @@ words = [
 ]
 
 def insertionSort(arr, left, right): #right = inclusive
-    pass
+
+    for i in range(left + 1, right + 1, 1):
+        for j in range(i, left, -1):
+            if arr[j] < arr[j - 1]:
+                arr[j], arr[j - 1] = arr[j - 1], arr[j]
 
 def mergeSort(arr, start, end): # end = inclusive
  
@@ -60,4 +64,5 @@ def merge(arr, start, mid, end): # mid = first right
     pass
 
 mergeSort(words, 0, len(words) - 1)
+print('--- Merge Sort ---')
 print(words)
