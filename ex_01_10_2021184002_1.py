@@ -18,6 +18,8 @@ def insertionSort(arr, left, right): #right = inclusive
         for j in range(i, left, -1):
             if arr[j] < arr[j - 1]:
                 arr[j], arr[j - 1] = arr[j - 1], arr[j]
+            elif arr[j] >= arr[j - 1]:
+                break
 
 def mergeSort(arr, start, end): # end = inclusive
  

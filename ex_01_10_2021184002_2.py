@@ -20,6 +20,8 @@ def insertionSort(arr, left, right): #right = inclusive
         for j in range(i, left, -1):
             if arr[j] > arr[j - 1]:
                 arr[j], arr[j - 1] = arr[j - 1], arr[j]
+            elif arr[j] <= arr[j - 1]:
+                break
 
 def partition(arr, start, end):
     random_index = random.randint(start, end)
