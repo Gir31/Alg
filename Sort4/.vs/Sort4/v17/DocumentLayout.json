@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github_my\\Alg\\Sort4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62119DA5-FFA6-4624-9786-22A19BA8702D}|Sort4.vcxproj|D:\\github_my\\Alg\\Sort4\\sort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{62119DA5-FFA6-4624-9786-22A19BA8702D}|Sort4.vcxproj|solutionrelative:sort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sort.c",
+              "DocumentMoniker": "D:\\github_my\\Alg\\Sort4\\sort.c",
+              "RelativeDocumentMoniker": "sort.c",
+              "ToolTip": "D:\\github_my\\Alg\\Sort4\\sort.c*",
+              "RelativeToolTip": "sort.c*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-11T07:49:02.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
