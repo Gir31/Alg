@@ -18,7 +18,7 @@ def main():
 	print(qs.words)
 	print(qs.partition)
 
-	ranks = [3, 17, 23, 88, 99]
+	ranks = [3, 10, 23, 88, 90]
 
 	last_word_index = len(qs.words) - 1
 	for rank in ranks:
